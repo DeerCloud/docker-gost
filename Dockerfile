@@ -2,7 +2,7 @@ FROM golang:alpine as builder
 
 LABEL maintainer="metowolf <i@i-meto.com>"
 
-ENV VERSION 2.7.0
+ENV VERSION 2.7.1
 
 RUN apk add git \
   && cd /go/src \
